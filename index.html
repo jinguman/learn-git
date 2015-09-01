@@ -106,7 +106,7 @@
       
         
         <li class="menu-item menu-item-home">
-          <a href="/learn-git/learn-git" rel="section">
+          <a href="/" rel="section">
             <i class="menu-item-icon icon-next-home"></i> <br />
             Home
           </a>
@@ -156,6 +156,349 @@
           
           
             
+              <a class="post-title-link" href="/learn-git/2015/09/01/git-remote/" itemprop="url">
+                git-remote
+              </a>
+            
+          
+        </h1>
+      
+
+      <div class="post-meta">
+        <span class="post-time">
+          Posted on
+          <time itemprop="dateCreated" datetime="2015-09-01T15:43:07+09:00" content="2015-09-01">
+            2015-09-01
+          </time>
+        </span>
+
+        
+
+        
+          
+        
+      </div>
+    </header>
+
+    <div class="post-body">
+
+      
+      
+
+      
+        
+          <span itemprop="articleBody"><h1 id="REGISTER_REMOTE_REPOSITORY">REGISTER REMOTE REPOSITORY</h1><h1 id="SSH_key">SSH key</h1><p><img src="/learn-git/uploads/28.png" alt="이미지"></p>
+<h1 id="Remote_details">Remote details</h1><p><code>git@github.com:xxxxx/git_toturial.git</code></p>
+<p><img src="/learn-git/uploads/29.png" alt="이미지"></p>
+<h1 id="PUSH">PUSH</h1><blockquote>
+<p>git remote<br>git push origin master<br>vi index.html<br>git add index.html<br>git commit index.html</p>
+</blockquote>
+<p>and </p>
+<blockquote>
+<p>vi index.html<br>git add index.html<br>git commit index.html</p>
+</blockquote>
+<p><img src="/learn-git/uploads/30.png" alt="이미지"></p>
+<h1 id="CLONE">CLONE</h1><blockquote>
+<p>git clone git@github.com:xxxxx/git_toturial.git </p>
+</blockquote>
+<p><img src="/learn-git/uploads/31.png" alt="이미지"></p>
+<h1 id="PUSH_&amp;_PULL">PUSH &amp; PULL</h1><p><img src="/learn-git/uploads/s.jpg" alt="이미지"></p>
+<p>In toturial</p>
+<blockquote>
+<p>git checkout master<br>vi index.html<br>git add index.html<br>git commit index.html<br>git push origin master</p>
+</blockquote>
+<p><img src="/learn-git/uploads/32.png" alt="이미지"></p>
+<p>In another</p>
+<blockquote>
+<p>vi index.html<br>git add index.html<br>git commit index.html<br>git push origin master<br><img src="/learn-git/uploads/33.png" alt="이미지"></p>
+</blockquote>
+<h1 id="UNFINISHED_STORY">UNFINISHED STORY</h1><p>stash, tag, rebase, …</p>
+</span>
+        
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      
+      
+        <h1 class="post-title" itemprop="name headline">
+          
+          
+            
+              <a class="post-title-link" href="/learn-git/2015/09/01/git-branch/" itemprop="url">
+                git-branch
+              </a>
+            
+          
+        </h1>
+      
+
+      <div class="post-meta">
+        <span class="post-time">
+          Posted on
+          <time itemprop="dateCreated" datetime="2015-09-01T14:55:34+09:00" content="2015-09-01">
+            2015-09-01
+          </time>
+        </span>
+
+        
+
+        
+          
+        
+      </div>
+    </header>
+
+    <div class="post-body">
+
+      
+      
+
+      
+        
+          <span itemprop="articleBody"><h1 id="BRANCH?">BRANCH?</h1><p>If you wanna develop new function, fix bug, ..</p>
+<p>How..?<br>Just Copy repository?<br>How to solve merge problem, etc ..</p>
+<p>Once upon a time…..bula bula..</p>
+<p><img src="/learn-git/uploads/23.png" alt="이미지"></p>
+<p><em>OR</em> </p>
+<p>Use Git Branch</p>
+<p><img src="/learn-git/uploads/branches.png" alt="이미지"></p>
+<h1 id="NEW_BRANCH">NEW BRANCH</h1><blockquote>
+<p>git branch<br>git branch dev</p>
+</blockquote>
+<p><img src="/learn-git/uploads/24.png" alt="이미지"></p>
+<h1 id="COMMIT_TO_EACH_BRANCH">COMMIT TO EACH BRANCH</h1><blockquote>
+<p>git checkout dev<br>vi index.html(body tag)<br>git checkout master<br>vi index.html(head tag)</p>
+</blockquote>
+<p><img src="/learn-git/uploads/25.png" alt="이미지"></p>
+<h1 id="BRANCH_MERGE">BRANCH MERGE</h1><blockquote>
+<p>git checkout master<br>git merge dev</p>
+</blockquote>
+<p><img src="/learn-git/uploads/26.png" alt="이미지"></p>
+<h1 id="BRANCH_REMOVE">BRANCH REMOVE</h1><blockquote>
+<p>git banch dump<br>git checkout dumb<br>git branch -d dumb</p>
+</blockquote>
+<h1 id="MERGE_CONFLICT">MERGE CONFLICT</h1><blockquote>
+<p>git branch dev2<br>vi index.html(modify body tag)<br>git add &amp; commit<br>git checkout master<br>vi index.html(modify body tag)<br>git add &amp; commit<br>git merge dev2</p>
+</blockquote>
+<p><img src="/learn-git/uploads/27.png" alt="이미지"></p>
+<h1 id="DEFENDE_CONFLICT">DEFENDE CONFLICT</h1><ul>
+<li>Frequently update from master branch</li>
+<li>Update before commit</li>
+<li>…???</li>
+</ul>
+</span>
+        
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      
+      
+        <h1 class="post-title" itemprop="name headline">
+          
+          
+            
+              <a class="post-title-link" href="/learn-git/2015/09/01/git-basic-commands/" itemprop="url">
+                git-basic-commands
+              </a>
+            
+          
+        </h1>
+      
+
+      <div class="post-meta">
+        <span class="post-time">
+          Posted on
+          <time itemprop="dateCreated" datetime="2015-09-01T14:23:38+09:00" content="2015-09-01">
+            2015-09-01
+          </time>
+        </span>
+
+        
+
+        
+          
+        
+      </div>
+    </header>
+
+    <div class="post-body">
+
+      
+      
+
+      
+        
+          <span itemprop="articleBody"><h1 id="INIT">INIT</h1><h2 id="Make_a_arepository">Make a arepository</h2><blockquote>
+<p>mkdir git_toturial<br>cd git_toturial<br>git init</p>
+</blockquote>
+<p><img src="/learn-git/uploads/15.png" alt="이미지"></p>
+<h1 id="ADD_&amp;_COMMIT">ADD &amp; COMMIT</h1><blockquote>
+<p>touch index.html<br>vi index.html<br>git add index.html<br>git commit index.html -m “init”</p>
+</blockquote>
+<p><img src="/learn-git/uploads/16.png" alt="이미지"></p>
+<blockquote>
+<p>vi index.html<br>touch readme.md<br>git add index.html readme.md<br>git commit index.html readme.md -m “second”</p>
+</blockquote>
+<p><img src="/learn-git/uploads/17.png" alt="이미지"></p>
+<h1 id="WORKING_DIRECTORY/INDEX(Staging_Area)/REPOSITORY">WORKING DIRECTORY/INDEX(Staging Area)/REPOSITORY</h1><h2 id="complex-">complex..</h2><p><img src="/learn-git/uploads/18.png" alt="이미지"></p>
+<h2 id="simple_image">simple image</h2><p><img src="/learn-git/uploads/trees.png" alt="이미지"></p>
+<h2 id="in_Git_bash">in Git bash</h2><p><img src="/learn-git/uploads/19.png" alt="이미지"></p>
+<h1 id="DISCARD">DISCARD</h1><p><img src="/learn-git/uploads/20.png" alt="이미지"></p>
+<h1 id="RESET">RESET</h1><p><img src="/learn-git/uploads/21.png" alt="이미지"></p>
+<h1 id="REVERT">REVERT</h1><p>reverse commit</p>
+<blockquote>
+<p>touch revert.md</p>
+</blockquote>
+<ul>
+<li>revert. This command creates a new commit that undoes the changes from a previous commit</li>
+<li>reset. it changes which commit a branch head is currently pointing at</li>
+</ul>
+<p><img src="/learn-git/uploads/22.png" alt="이미지"></p>
+</span>
+        
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      
+      
+        <h1 class="post-title" itemprop="name headline">
+          
+          
+            
+              <a class="post-title-link" href="/learn-git/2015/09/01/install-Git/" itemprop="url">
+                install-Git
+              </a>
+            
+          
+        </h1>
+      
+
+      <div class="post-meta">
+        <span class="post-time">
+          Posted on
+          <time itemprop="dateCreated" datetime="2015-09-01T13:59:19+09:00" content="2015-09-01">
+            2015-09-01
+          </time>
+        </span>
+
+        
+
+        
+          
+        
+      </div>
+    </header>
+
+    <div class="post-body">
+
+      
+      
+
+      
+        
+          <span itemprop="articleBody"><h1 id="Git">Git</h1><h2 id="Downloading_git">Downloading git</h2><p><a href="https://git-scm.com/download/win" target="_blank" rel="external">https://git-scm.com/download/win</a></p>
+<p><img src="/learn-git/uploads/08.png" alt="이미지"></p>
+<h2 id="Configure">Configure</h2><blockquote>
+<p>git config –global user.name “username”<br>git config –global user.email “email”<br>git config –global –list</p>
+</blockquote>
+<p><img src="/learn-git/uploads/09.png" alt="이미지"></p>
+<h1 id="GitHub">GitHub</h1><p>register GitHub</p>
+<blockquote>
+<p>cd ~/.ssh<br>ls<br>ssh-keygen -t rsa -C “email..”<br><img src="/learn-git/uploads/13.png" alt="이미지"></p>
+</blockquote>
+<p><img src="/learn-git/uploads/14.png" alt="이미지"></p>
+<h1 id="That’s_end…?_But,">That’s end…? But,</h1><p><img src="/learn-git/uploads/Mashup-3-MS-DOS-vs-Windows-8.jpg" alt="이미지"></p>
+<h1 id="SourceTree">SourceTree</h1><p><a href="https://www.sourcetreeapp.com/" target="_blank" rel="external">https://www.sourcetreeapp.com/</a></p>
+<p><img src="/learn-git/uploads/10.png" alt="이미지"></p>
+<h2 id="Change_language_option">Change language option</h2><p><img src="/learn-git/uploads/11.png" alt="이미지"></p>
+<h2 id="Change_encoding_option">Change encoding option</h2><p>In case of Windows<br><img src="/learn-git/uploads/12.png" alt="이미지"></p>
+</span>
+        
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      
+      
+        <h1 class="post-title" itemprop="name headline">
+          
+          
+            
               <a class="post-title-link" href="/learn-git/2015/09/01/git/" itemprop="url">
                 git
               </a>
@@ -187,17 +530,29 @@
 
       
         
-          <span itemprop="articleBody"><h1 id="Git">Git</h1><p>In wiki</p>
-<pre><code>distributed revision <span class="keyword">control</span> <span class="keyword">system</span>
-</code></pre><ul>
+          <span itemprop="articleBody"><h1 id="Git">Git</h1><p>Linus Torvalds, 2005</p>
+<ul>
 <li>English slang .. silly, incompetent, stupid, annoying, senile</li>
 <li>Global Information Tracker</li>
-<li></li>
 </ul>
-<p><img src="/learn-git/uploads/01.png" alt="이미지"></p>
-<h1 id="Wait-">Wait..</h1><p>Why English??</p>
+<p>In wiki</p>
+<pre><code>distributed <span class="function"><span class="title">revision</span><span class="params">(=version)</span></span> control system
+</code></pre><p><img src="/learn-git/uploads/01.png" alt="이미지"></p>
+<h1 id="WAIT">WAIT</h1><p>English??</p>
 <p><img src="/learn-git/uploads/02.png" alt="이미지"></p>
-<h1 id="VERSION">VERSION</h1></span>
+<h1 id="VERSION">VERSION</h1><p><img src="/learn-git/uploads/Category-Changes.jpg" alt="이미지"></p>
+<h1 id="VERSION_CONTROL">VERSION CONTROL</h1><p>Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later.</p>
+<p>Wikipedia..<br><img src="/learn-git/uploads/03.png" alt="이미지"><br><img src="/learn-git/uploads/04.png" alt="이미지"></p>
+<h1 id="VERSION_CONTROL_SYSTEM">VERSION CONTROL SYSTEM</h1><h2 id="LVCS">LVCS</h2><p>Local Version Control Systems<br><img src="/learn-git/uploads/05.png" alt="이미지"></p>
+<h2 id="CVCS">CVCS</h2><p>Centralized Version Control Systems</p>
+<blockquote>
+<p>Subversion, Perforce<br><img src="/learn-git/uploads/06.png" alt="이미지"></p>
+</blockquote>
+<h2 id="DVCS">DVCS</h2><p>Distributed Version Control Systems</p>
+<blockquote>
+<p>Git, Mercurial, Bazaar, Darcs<br><img src="/learn-git/uploads/07.png" alt="이미지"></p>
+</blockquote>
+</span>
         
       
     </div>
@@ -250,7 +605,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/learn-git/archives">
-              <span class="site-state-item-count">1</span>
+              <span class="site-state-item-count">5</span>
               <span class="site-state-item-name">posts</span>
             </a>
           </div>
